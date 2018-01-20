@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="154779b7-94a0-4fb3-afe6-a674f77b8117" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/draw_line_chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/visualize-generations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multi-genetic-drift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/visualize-multi-genetic-drifts.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/visualize-generations.html" afterPath="$PROJECT_DIR$/visualize-genetic-drift.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genetic-drift.js" afterPath="$PROJECT_DIR$/genetic-drift.js" />
     </list>
     <ignored path="nature-in-code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="genetic-drift.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/genetic-drift.js">
+      <file leaf-file-name="visualize-multi-genetic-drifts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/visualize-multi-genetic-drifts.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+            <state relative-caret-position="90">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visualize-generations.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/visualize-generations.html">
+      <file leaf-file-name="multi-genetic-drift.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multi-genetic-drift.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="420">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -68,6 +68,8 @@
         <option value="$PROJECT_DIR$/draw_line_chart.js" />
         <option value="$PROJECT_DIR$/genetic-drift.js" />
         <option value="$PROJECT_DIR$/visualize-generations.html" />
+        <option value="$PROJECT_DIR$/visualize-multi-genetic-drifts.html" />
+        <option value="$PROJECT_DIR$/multi-genetic-drift.js" />
       </list>
     </option>
   </component>
@@ -121,6 +123,11 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
@@ -163,18 +170,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516486954049</updated>
-      <workItem from="1516486955921" duration="608000" />
+      <workItem from="1516486955921" duration="1504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="608000" />
+    <option name="totallyTimeSpent" value="1504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="0" width="801" height="873" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -249,10 +256,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/visualize-generations.html">
+    <entry file="file://$PROJECT_DIR$/visualize-genetic-drift.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualize-multi-genetic-drifts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-genetic-drift.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding />
         </state>
       </provider>
