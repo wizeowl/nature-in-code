@@ -4,7 +4,7 @@ var average = 0;
 
 console.time();
 for (var i = 0; i < repeats; i++) {
-  sum += Math.random();
+    sum += Math.random();
 }
 
 average = sum / repeats;
