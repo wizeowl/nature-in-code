@@ -1,6 +1,7 @@
-var p = .5;
+;var p = .5;
 var N = 1000;
 var generations = 1200;
+var data = [];
 
 function next_generation() {
     var draws = 2 * N;
@@ -11,9 +12,13 @@ function next_generation() {
         else a2++;
     }
     p = a1 / draws;
+    data.push(p);
 }
 
-for (var i = 0; i < generations; i++) {
-    next_generation();
-    console.log("generation", i + 1, p);
-}
+document.addEventListener('DOMContentLoaded', function () {
+    for (var i = 0; i < generations; i++) {
+        next_generation();
+    }
+
+    draw_line_chart(data, "Generation", "p", ["Population size", N, "Generations:", generations]);
+}, false);

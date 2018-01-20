@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="154779b7-94a0-4fb3-afe6-a674f77b8117" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coin-flips.js" afterPath="$PROJECT_DIR$/coin-flips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/draw_line_chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/visualize-generations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/genetic-drift.js" afterPath="$PROJECT_DIR$/genetic-drift.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hardy-wineberg.js" afterPath="$PROJECT_DIR$/hardy-wineberg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/random-avg.js" afterPath="$PROJECT_DIR$/random-avg.js" />
     </list>
     <ignored path="nature-in-code.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,47 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="coin-flips.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coin-flips.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="genetic-drift.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/genetic-drift.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hardy-wineberg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hardy-wineberg.js">
+      <file leaf-file-name="visualize-generations.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/visualize-generations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random-avg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/random-avg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,8 +63,11 @@
       <list>
         <option value="$PROJECT_DIR$/random-avg.js" />
         <option value="$PROJECT_DIR$/hardy-wineberg.js" />
-        <option value="$PROJECT_DIR$/genetic-drift.js" />
         <option value="$PROJECT_DIR$/coin-flips.js" />
+        <option value="$PROJECT_DIR$/visualize-generations.js.html" />
+        <option value="$PROJECT_DIR$/draw_line_chart.js" />
+        <option value="$PROJECT_DIR$/genetic-drift.js" />
+        <option value="$PROJECT_DIR$/visualize-generations.html" />
       </list>
     </option>
   </component>
@@ -88,7 +79,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1600" />
+    <option name="x" value="800" />
+    <option name="width" value="801" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -117,24 +109,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nature-in-code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nature-in-code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nature-in-code" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -143,6 +118,40 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -154,15 +163,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516486954049</updated>
-      <workItem from="1516486955921" duration="32000" />
+      <workItem from="1516486955921" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32000" />
+    <option name="totallyTimeSpent" value="608000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="873" extended-state="0" />
+    <frame x="800" y="0" width="801" height="873" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -200,6 +209,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/coin-flips.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw_line_chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/random-avg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -218,16 +243,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/genetic-drift.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coin-flips.js">
+    <entry file="file://$PROJECT_DIR$/visualize-generations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
         </state>
       </provider>
