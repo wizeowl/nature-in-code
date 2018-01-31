@@ -1,5 +1,5 @@
-var N = 1000;
-var generations = 1200;
+var N = 20;
+var generations = 200;
 
 function geneticDrift() {
     var p = .5;
