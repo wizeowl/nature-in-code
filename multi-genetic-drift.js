@@ -1,8 +1,8 @@
 function GeneticDrift(inN, inGgenerations, inP) {
     // the population size, it's capitlized in order to correspond to the notation in formulas
-    N = inN || 20;
+    N = inN || 1000;
     // the number of generations over which to simulate genetic drift
-    generations = inGgenerations || 200;
+    generations = inGgenerations || 100;
     // the ratio of allele A1 (assuming there are only two alleles)
     p = inP || .5;
 
@@ -24,7 +24,9 @@ function GeneticDrift(inN, inGgenerations, inP) {
         let nextN = N;
 
         for (let i = 0; i < generations; i++) {
-            [nextP, nextN] = this.nextGeneration(nextP, nextN);
+            nextN = i % 10 == 9 ? 10 : N;
+            nextP = this.nextGeneration(nextP, nextN);
+
             data.push(nextP);
             this.populationSizes.push(nextN);
         }
@@ -44,7 +46,7 @@ function GeneticDrift(inN, inGgenerations, inP) {
         }
 
         // return the next ratio
-        return [a1 / draws, N];
+        return a1 / draws;
     }
 
     clear = () => {
