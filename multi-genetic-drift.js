@@ -1,34 +1,63 @@
-var N = 20;
-var generations = 200;
+function GeneticDrift(inN, inGgenerations, inP) {
+    // the population size, it's capitlized in order to correspond to the notation in formulas
+    N = inN || 20;
+    // the number of generations over which to simulate genetic drift
+    generations = inGgenerations || 200;
+    // the ratio of allele A1 (assuming there are only two alleles)
+    p = inP || .5;
 
-function geneticDrift() {
-    var p = .5;
-    var data = [];
+    simulations = [];
 
-    function next_generation() {
-        var draws = 2 * N;
-        var a1 = 0;
-        var a2 = 0;
-        for (var i = 0; i < draws; i++) {
+    simulate = function (reps) {
+        debugger
+        for (let i = 0; i < reps; i++) {
+            this.simulations.push(this.drift(this.N, this.generations, this.p));
+        }
+
+        return this.simulations;
+    }
+
+    drift = function (N, generations, p) {
+        let data = [p];
+        let nextP = p;
+
+        for (let i = 0; i < generations; i++) {
+            nextP = this.nextGeneration(nextP, N);
+            data.push(nextP);
+        }
+
+        return data;
+    }
+
+    nextGeneration = function (p, N) {
+        let draws = 2 * N;
+        let a1 = 0;
+        let a2 = 0;
+
+        // calculate next generation's ratio
+        for (let i = 0; i < draws; i++) {
             if (Math.random() <= p) a1++;
             else a2++;
         }
-        p = a1 / draws;
-        data.push(p);
+
+        // return the next ratio
+        return a1 / draws;
     }
 
-    for (var i = 0; i < generations; i++) {
-        next_generation();
+    clear = function () {
+        this.simulations = [];
     }
-
-    return data;
+    
+    return this;
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    var data = [];
-    for (var i = 0; i < 4; i++) {
-        data.push(geneticDrift());
-    }
+    let geneticDrift = GeneticDrift();
+    console.log(geneticDrift);
 
-    draw_line_chart(data, "Generation", "p", ["Population size", N, "Generations:", generations]);
+    draw_line_chart(geneticDrift.simulate(5), "Generation", "p", [
+        "Population size", geneticDrift.N,
+        "Generations:", geneticDrift.generations
+    ]);
+
 }, false);
